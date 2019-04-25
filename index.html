@@ -1,10 +1,58 @@
-<!DOCTYPE html>
 <html>
-<body>
-  <h1>OhHai Browser</h1>
-  <p>Coming soon!</p>
-  <script>
-    window.location.replace("http://www.ohhaibrowser.com");
-  </script>
-</body>
+	<head>
+		<title>OhHai Browser</title>
+		<link rel="StyleSheet" href="assets/css/style.css"/>
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<body>		
+		<div class="header">
+			<a href="#" class="logoLink">
+				<img src="assets\imgs\Logo-Light.png" class="logoImg"/>
+			</a>				
+			<h1 class="titleText">OhHai Browser</h1>
+			<h3 class="titleSubText">Take a walk on the wild side</h3>	
+			
+			<a href="#" id="MainDownloadBtn" class="downloadBtn mainDownload isDisabled">Download OhHai</a>
+			
+			<img src="assets\imgs\BannerApp.png" class="BannerApp"/>		
+		</div>
+
+		<div class="infoSection">
+			<div class="fullSectionInner">
+				<p class="sectionTitle">Browse in a whole new way</p>
+				<p class="sectionText">OhHai browsers tabs are in a panel to the left of the browser, allowing you to view more vertical page content, But still allowing access to all of your tabs at a glance.</p>
+			</div>
+		</div>
+		
+		<div class="infoSection gray">
+			<div class="sectionInner">
+				<p class="sectionTitle">More about those tabs!</p>
+				<p class="sectionText">Don't worry about running out of room for tabs or have to search for a window again. With OhHai's tab management system everything is put into one list where you can group, pin, incognito or just leave tabs is they are.</p>
+			</div>
+			<img src="assets\imgs\EpicTabs.png" class="sectionInner"/>
+		</div>
+		
+		<div class="infoSection">
+			<img src="assets\imgs\BannerApp_Mobile.png" class="sectionInner"/>
+			<div class="sectionInner">
+				<p class="sectionTitle">Completely responsive</p>
+				<p class="sectionText">Just like your favourite websites, OhHai resizes to your needs. So you can go from teeny tiny 7inch tablets to 100 inch 8k screens with no issues...Apart from an empty wallet.</p>
+			</div>
+		</div>	
+		
+		<div class="infoSection centerText gray">
+			<a href="https://facebook.com/OhHaiBrowser" class="socialLink"><img src="assets\imgs\Facebook.png"/></a>
+			<a href="https://twitter.com/OhHaiBrowser" class="socialLink"><img src="assets\imgs\Twitter.png"/></a>
+			<a href="https://discordapp.com/invite/C5yK5FQ" class="socialLink"><img src="assets\imgs\Discord.png"/></a>
+		</div>
+		
+		
+		<div class="downloadPan">
+			<a href="#" id="DownloadBtn" class="downloadBtn isDisabled">Download OhHai</a>
+		</div>
+		
+		
+		<script src="assets/dectectOs.js"></script>
+		<script src="assets/script.js"></script>
+	</body>
 </html>

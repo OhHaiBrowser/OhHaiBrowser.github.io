@@ -1,0 +1,125 @@
+*{margin:0;padding:0;font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;outline:none;font-size:16px;}
+body{}
+
+.outerContent{    display: block;
+    white-space: nowrap;
+    padding: 1em 5% 2em 5%;
+    position: relative;}
+.fullpage{position:absolute;top:0;left:0;height:100%;width:100%;padding:10px;box-sizing: border-box;}
+
+
+.header{
+	width:100%;
+	background:linear-gradient(135deg, #0C1234 40%, rgb(182, 107, 169) 80%);
+	background-color:#0C1234;
+
+}
+	.logoLink{display:block;width:75px;height:75px;margin:0px auto;padding:25px 0;}
+		.logoImg{width:75px;height:75px}
+
+	.titleText{text-align:center;font-size:3em;color:#fff;margin-top:30px;}
+	.titleSubText{text-align:center;font-size:1.5em;color:#fff;}
+		
+	#MainDownloadBtn{
+		margin-top:70px;
+	}
+		
+	.BannerApp{width:80%;border-top-left-radius:5px;border-top-right-radius:5px;display:block;margin:70px auto 10px auto;max-width:1400px;}
+		
+		
+		
+.titleSection{padding:10px;}
+	.sectionTitle{font-size:1.7em;margin:0 0 10px 0;}
+	.sectionText{font-size:1.2em;}
+	.sectionImg{}
+	
+.infoSection{
+	display: block;
+    white-space: nowrap;
+    padding: 1em 5% 2em 5%;
+    position: relative;
+}	
+
+	img.sectionInner{
+		border-radius:5px;
+		padding-left: 0;
+		padding-right: 0;
+		box-shadow: 0px 0px 20px #999;
+		margin:15px 0;
+	}
+
+	.sectionInner{    
+		display: inline-block;
+		width: 50%;
+		vertical-align: top;
+		white-space: normal;
+		padding: 0 1.5em;
+		box-sizing: border-box;
+	}
+	
+	.fullSectionInner{    
+		display: inline-block;
+		width: 100%;
+		vertical-align: top;
+		white-space: normal;
+		padding: 0 1.5em;
+		box-sizing: border-box;
+	}
+		
+.downloadPan{
+    bottom: 0;
+	width:100%;
+    background:linear-gradient(135deg, #0C1234 40%, rgb(182, 107, 169) 80%);
+	background-color:#0C1234;
+    box-sizing: border-box;
+    padding: 2em 5%;
+}
+	.downloadBtn{
+		width:250px;
+		padding:20px 0;
+		display:block;
+		background-color:#62B31F;
+		text-align:center;
+		text-decoration:none;
+		color:#000;
+		border-radius:5px;
+		margin:0 auto;
+		-webkit-transition: background-color 0.7s, color 0.7s; /* Safari */
+		transition:background-color 0.7s, color 0.7s;
+	}
+	.downloadBtn:hover{
+		background-color:#71e114;
+		color:#000;
+	}
+	
+	.isDisabled {
+		color: currentColor;
+		cursor: not-allowed;
+		opacity: 0.5;
+		text-decoration: none;
+	}
+	
+	
+	.gray{background-color:#f4f4f4;}
+	
+	
+	.socialLink{
+		
+	}
+	.socialLink img{
+		display:inline-block;
+		width:50px;
+		margin:0 20px;
+	}
+	.centerText{text-align:center;}
+	
+	
+@media (max-width: 675px){
+	
+	.sectionInner{
+			display:block;
+			width:100%;
+	}
+	
+}
+	
