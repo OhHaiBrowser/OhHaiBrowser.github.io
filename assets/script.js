@@ -13,11 +13,11 @@ switch(Detect.OS){
 	//	DownloadBtn.classList.remove("isDisabled");
 	//break;
 	case "Windows":
-		MainDownloadBtn.href = "assets/apps/OhHaiBrowser-windows-setup.exe";
+		MainDownloadBtn.href = "https://github.com/OhHaiBrowser/Browser/releases/latest/download/OhHaiBrowser-windows-setup.exe";
 		MainDownloadBtn.textContent = "Download for Windows"
 		MainDownloadBtn.classList.remove("isDisabled");
 	
-		DownloadBtn.href = "assets/apps/OhHaiBrowser-windows-setup.exe";
+		DownloadBtn.href = "https://github.com/OhHaiBrowser/Browser/releases/latest/download/OhHaiBrowser-windows-setup.exe";
 		DownloadBtn.textContent = "Download for Windows"
 		DownloadBtn.classList.remove("isDisabled");
 	break;
