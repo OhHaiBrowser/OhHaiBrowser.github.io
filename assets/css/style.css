@@ -103,8 +103,11 @@ body{}
 	.gray{background-color:#f4f4f4;}
 	
 	
-	.socialLink{
-		
+	.socialSection{
+		display: block;
+		white-space: nowrap;
+		padding: 1em 5% 1em 5%;
+		position: relative;
 	}
 	.socialLink img{
 		display:inline-block;
