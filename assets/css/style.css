@@ -1,5 +1,5 @@
 *{margin:0;padding:0;font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;outline:none;font-size:16px;}
-body{}
+body{overflow: overlay;}
 
 .outerContent{    display: block;
     white-space: nowrap;
@@ -131,3 +131,17 @@ body{}
 	
 }
 	
+
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	opacity: 0.5;
+	background: rgba(23, 36, 103, 0.5);  
+	border-radius: 2px; 
+}
+	::-webkit-scrollbar-thumb:hover {
+		background: rgba(23, 36, 103, 0.8); 
+	}
