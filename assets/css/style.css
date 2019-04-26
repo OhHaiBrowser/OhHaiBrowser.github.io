@@ -72,7 +72,7 @@ body{}
     background:linear-gradient(135deg, #0C1234 40%, rgb(182, 107, 169) 80%);
 	background-color:#0C1234;
     box-sizing: border-box;
-    padding: 2em 5%;
+    padding: 2em 5% 1em 5%;
 }
 	.downloadBtn{
 		width:250px;
@@ -113,6 +113,11 @@ body{}
 	}
 	.centerText{text-align:center;}
 	
+	.footer{
+		text-align: center;
+		padding: 20px 0 0 0;
+		color: #fff;
+	}
 	
 @media (max-width: 675px){
 	
