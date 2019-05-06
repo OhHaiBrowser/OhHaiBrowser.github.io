@@ -7,11 +7,15 @@ switch(Detect.OS){
 	//	DownloadBtn.textContent = "Download for Mac"
 	//	DownloadBtn.classList.remove("isDisabled");
 	//break;
-	//case "Linux":
-	//	DownloadBtn.href = "assets/apps/";
-	//	DownloadBtn.textContent = "Download for Linux"
-	//	DownloadBtn.classList.remove("isDisabled");
-	//break;
+	case "Linux":
+		MainDownloadBtn.href = "https://github.com/OhHaiBrowser/Browser/releases/latest/download/OhHaiBrowser-linux-setup.deb";
+		MainDownloadBtn.textContent = "Download for Linux"
+		MainDownloadBtn.classList.remove("isDisabled");
+
+		DownloadBtn.href = "https://github.com/OhHaiBrowser/Browser/releases/latest/download/OhHaiBrowser-linux-setup.deb";
+		DownloadBtn.textContent = "Download for Linux"
+		DownloadBtn.classList.remove("isDisabled");
+	break;
 	case "Windows":
 		MainDownloadBtn.href = "https://github.com/OhHaiBrowser/Browser/releases/latest/download/OhHaiBrowser-windows-setup.exe";
 		MainDownloadBtn.textContent = "Download for Windows"
